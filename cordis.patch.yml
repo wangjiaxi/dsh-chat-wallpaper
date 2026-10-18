@@ -1,0 +1,7 @@
+# dsh-chat-wallpaper bundle patch.
+#
+# One row: the Host half is an empty plugin (the whole feature lives in the
+# Client module), it exists so the loader has something to mount.
+- insert:
+    - id: chat-wallpaper
+      name: dsh-chat-wallpaper

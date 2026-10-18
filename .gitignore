@@ -1,0 +1,14 @@
+# 本地装插件时会生成的东西，不要提交
+node_modules/
+.pnpm-debug.log*
+package-lock.json
+pnpm-lock.yaml
+
+# 编辑器 / 系统
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# 个人草稿
+*.local.*
